@@ -5,8 +5,8 @@ import DCLogo from '../assets/dc-logo.svg';
 
 const Nav = () => {
 	return (
-		<div>
-			<nav className='flex justify-between items-center px-4 py-[4px] '>
+		<div className='max-w-[720px] m-auto lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px]'>
+			<nav className='flex justify-between items-center px-3 py-[4px] xl:pb-3 pt-[5px]'>
 				<img src={DCLogo} alt='dc-logo' className='h-10 w-10' />
 				<div>
 					<SearchIcon />
