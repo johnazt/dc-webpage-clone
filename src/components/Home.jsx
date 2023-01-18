@@ -22,7 +22,7 @@ export const Home = () => {
 							<span>Wonder Girl: Homecoming,</span> Yara Flor thought she was
 							going to Brazil. She ended up in the Amazons.
 						</p>
-						<button className='font-semibold text-sm border-[1px] tracking-tighter border-black md:text-black md:bg-gray-200 md:bg-opacity-90  rounded-3xl px-10 py-2 cursor-pointer'>
+						<button className='font-semibold text-sm border-[1px] tracking-tighter border-black md:text-black md:bg-gray-200 md:bg-opacity-90  rounded-3xl px-10 py-2 cursor-pointer hover:border-transparent hover:bg-blue-500 hover:text-white transition ease-in-out duration-300'>
 							{`${'Learn Why it’s Our Weekend Escape'.toUpperCase()}`}
 						</button>
 					</div>

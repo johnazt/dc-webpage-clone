@@ -30,7 +30,7 @@ export const cards = [
 		textBtn: 'SIGN UP NOW'
 	},
 	{
-		small: 'DC UNIVERESE INFINITE',
+		small: 'DC UNIVERSE INFINITE',
 		title: 'DCUI ULTRA EXPANDS TO OVER 32,000 COMICS',
 		imgDesk: card4Desk,
 		imgMob: card4Mob,
