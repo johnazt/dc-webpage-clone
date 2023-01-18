@@ -1,9 +1,9 @@
 import React from 'react';
-import HomeMobile from '../assets/imgs/home-dc-mobile.avif';
-import HomeDesktop from '../assets/imgs/home-dc.avif';
+import HomeMobile from '../assets/imgs/home/home-dc-mobile.avif';
+import HomeDesktop from '../assets/imgs/home/home-dc.avif';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-const Home = () => {
+export const Home = () => {
 	const matches = useMediaQuery('(min-width:575px)');
 
 	return (
@@ -31,5 +31,3 @@ const Home = () => {
 		</div>
 	);
 };
-
-export default Home;

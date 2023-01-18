@@ -1,11 +1,11 @@
-import Home from './components/Home';
-import Nav from './components/Nav';
+import { Cards, Nav, Home } from './components';
 
 function App() {
 	return (
 		<div>
 			<Nav />
 			<Home />
+			<Cards />
 		</div>
 	);
 }
