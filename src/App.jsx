@@ -1,4 +1,5 @@
 import { Cards, Nav, Home } from './components';
+import SectionVideo from './components/SectionVideo';
 
 function App() {
 	return (
@@ -6,6 +7,7 @@ function App() {
 			<Nav />
 			<Home />
 			<Cards />
+			<SectionVideo />
 		</div>
 	);
 }
