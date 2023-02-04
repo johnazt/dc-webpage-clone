@@ -112,3 +112,22 @@ export const latest = [
 		link: ''
 	}
 ];
+
+export const responsive = {
+	superLargeDesktop: {
+		breakpoint: { max: 4000, min: 962 },
+		items: 4
+	},
+	desktop: {
+		breakpoint: { max: 962, min: 765 },
+		items: 3
+	},
+	tablet: {
+		breakpoint: { max: 765, min: 575 },
+		items: 3
+	},
+	mobile: {
+		breakpoint: { max: 575, min: 0 },
+		items: 2
+	}
+};
