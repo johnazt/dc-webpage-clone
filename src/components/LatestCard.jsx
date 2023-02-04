@@ -2,20 +2,16 @@ import React from 'react';
 
 export const LatestCard = ({ card }) => {
 	return (
-		<div className='flex flex-col text-sm text-center shadow-md basis-0 flex-1 min-h-[280px] cursor-pointer'>
-			<img
-				className='min-h-[100px] lg:min-h-[150px] object-fill '
-				src={card.img}
-				alt={card.title}
-			/>
-			<div className=' '>
+		<div className='flex flex-col text-sm text-center shadow-md cursor-pointer h-full'>
+			<img src={card.img} alt={card.title} />
+			<>
 				<small className='tracking-widest text-gray-600 my-4 inline-block'>
 					{card.category}
 				</small>
-				<p className='uppercase font-extrabold  px-2 tracking-tighter overflow-hidden'>
+				<p className='uppercase font-extrabold px-2 pb-5 tracking-tighter '>
 					{card.title}
 				</p>
-			</div>
+			</>
 		</div>
 	);
 };
