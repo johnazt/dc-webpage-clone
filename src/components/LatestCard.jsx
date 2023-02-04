@@ -3,8 +3,7 @@ import React from 'react';
 export const LatestCard = ({ card, index }) => {
 	return (
 		<div
-			className={`flex flex-col text-sm text-center shadow-md cursor-pointer h-full mr-4
-			}`}
+			className={`flex flex-col text-sm text-center shadow-md cursor-pointer h-full`}
 		>
 			<img src={card.img} alt={card.title} />
 			<>

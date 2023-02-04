@@ -11,7 +11,8 @@ export const LatestTrailers = () => {
 				latest trailers, clips & more
 			</h2>
 			<Carousel
-				containerClass={'pb-6 mt-8'}
+				containerClass={'pb-6 mt-8 ml-[-1em]'}
+				itemClass={'px-4'}
 				responsive={responsive}
 				customRightArrow={<CustomRightArrow />}
 				customLeftArrow={<CustomLeftArrow />}
