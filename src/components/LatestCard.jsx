@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const LatestCard = ({ card, index }) => {
+export const LatestCard = ({ card }) => {
 	return (
 		<div
 			className={`flex flex-col text-sm text-center shadow-md cursor-pointer h-full`}

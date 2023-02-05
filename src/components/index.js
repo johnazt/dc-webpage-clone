@@ -4,3 +4,4 @@ export * from './LatestCard';
 export * from './CustomLeftArrow';
 export * from './CustomRightArrow';
 export * from './GodsMonster';
+export * from './GodsCard';

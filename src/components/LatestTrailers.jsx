@@ -12,13 +12,13 @@ export const LatestTrailers = () => {
 			</h2>
 			<Carousel
 				containerClass={'pb-6 mt-8 ml-[-1em]'}
-				itemClass={'px-4'}
+				itemClass={'px-3'}
 				responsive={responsive}
 				customRightArrow={<CustomRightArrow />}
 				customLeftArrow={<CustomLeftArrow />}
 			>
 				{latest.map((card, index) => (
-					<LatestCard card={card} key={index} index={index} />
+					<LatestCard card={card} key={index} />
 				))}
 			</Carousel>
 		</div>

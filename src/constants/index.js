@@ -7,6 +7,25 @@ import card3Mob from '../assets/imgs/cards/card3Mob.webp';
 import card4Desk from '../assets/imgs/cards/card4Desk.webp';
 import card4Mob from '../assets/imgs/cards/card4Mob.webp';
 
+export const responsive = {
+	superLargeDesktop: {
+		breakpoint: { max: 4000, min: 962 },
+		items: 4
+	},
+	desktop: {
+		breakpoint: { max: 962, min: 765 },
+		items: 3
+	},
+	tablet: {
+		breakpoint: { max: 765, min: 575 },
+		items: 2
+	},
+	mobile: {
+		breakpoint: { max: 575, min: 0 },
+		items: 2
+	}
+};
+
 export const cards = [
 	{
 		small: 'SUPERHERO SUPERLATIVES',
@@ -113,21 +132,41 @@ export const latest = [
 	}
 ];
 
-export const responsive = {
-	superLargeDesktop: {
-		breakpoint: { max: 4000, min: 962 },
-		items: 4
+export const godCards = [
+	{
+		title: 'creature commando',
+		img: 'https://static.dc.com/2023-01/dcui_cvr_creaturecommandos.jpg?w=640'
 	},
-	desktop: {
-		breakpoint: { max: 962, min: 765 },
-		items: 3
+	{
+		title: 'supergirl: woman of tomorrow',
+		img: 'https://static.dc.com/2023-01/dcui_cvr_supergirlWOT.jpg?w=640'
 	},
-	tablet: {
-		breakpoint: { max: 765, min: 575 },
-		items: 2
+	{
+		title: 'the authority',
+		img: 'https://static.dc.com/2023-01/dcui_cvr_theAuthority_BookOne.jpg?w=640'
 	},
-	mobile: {
-		breakpoint: { max: 575, min: 0 },
-		items: 2
+	{
+		title: 'batman & robin',
+		img: 'https://static.dc.com/2023-01/dcui_cvr_batmanAndRobin_10.jpg?w=640'
+	},
+	{
+		title: 'booster gold',
+		img: 'https://static.dc.com/2023-01/dcui_cvr_BoosterGold_V1.jpg?w=640'
+	},
+	{
+		title: 'saga of the swamp thing',
+		img: 'https://static.dc.com/2023-01/dcui_cvr_sagaOfSwampThing.jpg?w=640'
+	},
+	{
+		title: 'suicide squad: the phoenix gambit',
+		img: 'https://static.dc.com/2023-01/dcui_cvr_SS_PhoenixGambit.jpg?w=640'
+	},
+	{
+		title: 'hal jordan and the green lantern corps',
+		img: 'https://static.dc.com/2023-01/dcui_cvr_HalJordanGreenLantern_V1.jpg?w=640'
+	},
+	{
+		title: '',
+		img: 'https://static.dc.com/2022-10/DCUI_tb_SeeMoreNewReleasesx.jpg?w=640'
 	}
-};
+];

@@ -9,7 +9,7 @@ export const CustomLeftArrow = ({ onClick, ...rest }) => {
 	return (
 		<div
 			onClick={() => onClick()}
-			className='absolute bg-white rounded-full p-3 flex cursor-pointer drop-shadow-xl left-4 top-[40%] opacity-0 sm:opacity-95 '
+			className='absolute bg-white rounded-full p-3 flex cursor-pointer drop-shadow-xl left-4 top-[50%] opacity-0 sm:opacity-95 '
 		>
 			<ArrowBackIosIcon color='primary' className='pl-1' />
 		</div>
