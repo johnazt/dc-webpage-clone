@@ -170,3 +170,36 @@ export const godCards = [
 		img: 'https://static.dc.com/2022-10/DCUI_tb_SeeMoreNewReleasesx.jpg?w=640'
 	}
 ];
+
+export const getToKnow = [
+	{
+		name: 'damian wayne',
+		img: 'https://static.dc.com/2023-01/dc_hp_GTK_damian.jpg?w=1200',
+		button: 'meet damian',
+		text: 'The son of Bruce Wayne and Talia al Ghul, Damian Wayne was born to a life of adventure, but he struggles daily against the lesser angels of his nature.'
+	},
+	{
+		name: 'booster gold',
+		img: 'https://static.dc.com/2023-01/dc_hp_GTK_boosterGold.jpg?w=1200',
+		button: 'meet booster',
+		text: 'A scoundrel from the future intent on making a name for himself in the past, Booster Gold has nevertheless exhibited his share of heroism.'
+	},
+	{
+		name: 'amanda waller',
+		img: 'https://static.dc.com/2023-01/dc_hp_GTK_waller.jpg?w=1200',
+		button: 'meet waller',
+		text: "If there's one government bureaucrat who shouldn't be messed with, it’s Amanda Waller, founder of the infamous Task Force X, better known as the Suicide Squad."
+	},
+	{
+		name: 'Swamp thing',
+		img: 'https://static.dc.com/2023-01/dc_hp_GTK_swampThing.jpg?w=1200',
+		button: 'meet Alec hooland',
+		text: 'The swamp has a spirit, and it walks on two legs. A monster that was once a man…'
+	},
+	{
+		name: 'supergirl',
+		img: 'https://static.dc.com/2023-01/dc_hp_GTK_supergirl.jpg?w=1200',
+		button: 'meet kara',
+		text: 'Kara Zor-el was rocketed to Earth from the dying planet Krypton. Faced with an entire world completely unrecognizable from the one she grew up in, she’s the ultimate new girl in school.'
+	}
+];

@@ -27,7 +27,7 @@ export const Cards = () => {
 						<small className='tracking-widest text-gray-600 my-4 inline-block'>
 							{small}
 						</small>
-						<p className='text-[1.45rem] uppercase font-extrabold mx-auto mb-16 px-2 tracking-tighter'>
+						<p className='text-[1.45rem] uppercase font-extrabold mx-auto mb-16 px-2 tracking-tighter scale-y-110'>
 							{title}
 						</p>
 					</div>

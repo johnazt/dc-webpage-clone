@@ -15,7 +15,7 @@ export const Home = () => {
 						<p className='text-md font-semibold tracking-wider mb-3'>
 							WEEKEND ESCAPE
 						</p>
-						<h2 className='text-3xl font-extrabold tracking-tighter text-left leading-10 mb-2'>
+						<h2 className='text-3xl font-extrabold tracking-tighter text-left leading-10 mb-2 scale-y-110'>
 							AN ADVENTURE OF MYTHIC PROPORTIONS
 						</h2>
 						<p className='text-left text-sm py-4 mb-3'>

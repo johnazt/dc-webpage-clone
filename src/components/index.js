@@ -5,3 +5,6 @@ export * from './CustomLeftArrow';
 export * from './CustomRightArrow';
 export * from './GodsMonster';
 export * from './GodsCard';
+export * from './GetToKnow';
+export * from './ArrowLeft';
+export * from './ArrowRight';

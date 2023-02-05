@@ -5,18 +5,29 @@
 :root {
 	font-size: 16px;
 }
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
 	overflow-x: hidden !important;
 }
-
 img {
 	width: 100%;
 	object-fit: cover;
+}
+.dots {
+	margin-bottom: 1.5em;
+}
+.dots button {
+	border-radius: 50%;
+	margin: 0 5px;
+	border: none;
+	background-color: rgba(255, 255, 255);
+	opacity: 0.35;
+}
+.react-multi-carousel-dot--active button {
+	border-radius: 50%;
+	opacity: 1;
 }

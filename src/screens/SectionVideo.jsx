@@ -12,7 +12,7 @@ export const SectionVideo = () => (
 			<p className='uppercase font-extrabold tracking-tighter my-4'>
 				official Trailer 2
 			</p>
-			<p className='text-[1.35rem] md:text-[2.2rem] uppercase font-extrabold  mb-3 tracking-tighter'>
+			<p className='text-[1.35rem] md:text-[2.2rem] uppercase font-extrabold  mb-3 tracking-tighter scale-y-110'>
 				Shazam! fury of the gods
 			</p>
 			<small className='text-[14px]'>

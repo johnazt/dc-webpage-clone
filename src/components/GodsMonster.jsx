@@ -11,11 +11,7 @@ export const GodsMonster = () => {
 			items: 5
 		},
 		desktop: {
-			breakpoint: { max: 962, min: 765 },
-			items: 3
-		},
-		tablet: {
-			breakpoint: { max: 765, min: 575 },
+			breakpoint: { max: 962, min: 575 },
 			items: 3
 		},
 		mobile: {
@@ -25,8 +21,8 @@ export const GodsMonster = () => {
 	};
 
 	return (
-		<div className='sm:mx-4 md:mx-8 lg:mx-2 relative'>
-			<h2 className='uppercase text-[1.35rem] font-extrabold tracking-tighter md:text-[2.2rem]'>
+		<div className='sm:mx-4 md:mx-8 lg:mx-2 relative mb-16'>
+			<h2 className='uppercase text-[1.35rem] font-extrabold tracking-tighter md:text-[2.2rem] scale-y-110'>
 				READ UP ON DC STUDIOS' GODS & MONSTERS
 			</h2>
 			<Carousel

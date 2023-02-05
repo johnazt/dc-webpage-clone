@@ -6,8 +6,8 @@ import { LatestCard, CustomLeftArrow, CustomRightArrow } from '../components';
 
 export const LatestTrailers = () => {
 	return (
-		<div className='sm:mx-4 md:mx-8 lg:mx-2'>
-			<h2 className='uppercase text-[1.35rem] font-extrabold tracking-tighter md:text-[2.2rem]'>
+		<div className='sm:mx-4 md:mx-8 lg:mx-2 mb-16'>
+			<h2 className='uppercase text-[1.35rem] font-extrabold tracking-tighter md:text-[2.2rem] scale-y-110'>
 				latest trailers, clips & more
 			</h2>
 			<Carousel
