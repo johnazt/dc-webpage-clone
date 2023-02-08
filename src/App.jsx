@@ -1,5 +1,5 @@
 import { Nav, LatestTrailers } from './components';
-import { Cards, Home, SectionVideo, Sliders } from './screens';
+import { Cards, Home, SectionVideo, Sliders, Footer } from './screens';
 
 function App() {
 	return (
@@ -9,6 +9,7 @@ function App() {
 			<Cards />
 			<SectionVideo />
 			<Sliders />
+			<Footer />
 		</div>
 	);
 }

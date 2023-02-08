@@ -8,7 +8,7 @@ export const NewsItem = ({ card }) => {
 				<small className='font-semibold uppercase tracking-widest text-gray-600 my-4 inline-block'>
 					{card.small}
 				</small>
-				<p className='text-[1.2rem] text-center uppercase font-extrabold py-3 tracking-tighter leading-5 lg:text-[1.4rem] scale-y-110'>
+				<p className='text-[1.35rem] text-center uppercase font-extrabold py-3 tracking-tighter leading-5 lg:text-[1.4rem] scale-y-110 px-4'>
 					{card.title}
 				</p>
 				<button

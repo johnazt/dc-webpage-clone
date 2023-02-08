@@ -10,3 +10,5 @@ export * from './ArrowLeft';
 export * from './ArrowRight';
 export * from './News';
 export * from './NewsItem';
+export * from './AllRights';
+export * from './JoinDC';
