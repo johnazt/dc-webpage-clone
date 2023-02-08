@@ -1,5 +1,5 @@
 import React from 'react';
-import { LatestTrailers, GodsMonster, GetToKnow } from '../components';
+import { LatestTrailers, GodsMonster, GetToKnow, News } from '../components';
 
 export const Sliders = () => {
 	return (
@@ -9,6 +9,7 @@ export const Sliders = () => {
 				<GodsMonster />
 			</div>
 			<GetToKnow />
+			<News />
 		</div>
 	);
 };
