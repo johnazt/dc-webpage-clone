@@ -203,3 +203,60 @@ export const getToKnow = [
 		text: 'Kara Zor-el was rocketed to Earth from the dying planet Krypton. Faced with an entire world completely unrecognizable from the one she grew up in, she’s the ultimate new girl in school.'
 	}
 ];
+
+export const news = [
+	{
+		img: 'https://static.dc.com/2023-02/Thumbnail_16x9_JeremyAdams.jpg?w=640',
+		small: 'exclusive interview',
+		title: 'Exploring the Laws of Speed and Light with Jeremy Adams',
+		btnText: 'The Flash Writer Brings Us Up to Speed'
+	},
+	{
+		img: 'https://static.dc.com/2023-02/Thumbnail_16x9_AoSJK_0.jpg?w=640',
+		small: 'exclusive interview',
+		title: 'Tom Taylor Takes Jon Kent Into the World of Injustice',
+		btnText: 'This is No Game'
+	},
+	{
+		img: 'https://static.dc.com/2023-02/Thumbnail_16x9_WE_Nubia%26TA.jpg?w=640',
+		small: 'Weekend Escape',
+		title: 'Nubia & the Amazons Ushers in a New Age of Themyscira',
+		btnText: 'All Hail the Queen'
+	},
+	{
+		img: 'https://static.dc.com/2023-02/Thumbnail_16x9_DCPower.jpg?w=640',
+		small: 'Exclusive Interview',
+		title: 'BRINGING CYBORG INTO THE 21ST CENTURY',
+		btnText: 'Get Plugged In'
+	},
+	{
+		img: 'https://static.dc.com/2023-02/Thumbnail_16x9_ATQ_Nightwing.jpg?w=640',
+		small: 'Ask...the Question',
+		title: 'Has Dick Grayson Ever Put the Robin Suit Back On?',
+		btnText: 'Do You Think It Still Fits?'
+	},
+	{
+		img: 'https://static.dc.com/2023-02/Thumbnail_16x9_TheAnnouncem.jpg?w=640',
+		small: 'Announcement',
+		title: 'The Next Generation of DC Movies and TV Has Arrived...',
+		btnText: 'Get Your Popcorn Ready'
+	},
+	{
+		img: 'https://static.dc.com/2023-01/Marquee_TheAnnouncem.jpg?w=640',
+		small: 'Interview',
+		title: 'James Gunn and Peter Safran on Building a New DC Universe',
+		btnText: 'Hear What They Have to Say'
+	},
+	{
+		img: 'https://static.dc.com/2023-01/Thumbnail_16x9_Cities1.jpg?w=640',
+		small: 'Explore the DCU',
+		title: 'RATING THE CITIES OF THE DCU',
+		btnText: 'A Super Place to Live'
+	},
+	{
+		img: 'https://static.dc.com/2023-01/Thumbnail_16x9_WE_Nightwing.jpg?w=640',
+		small: 'Weekend Escape',
+		title: 'A Knight in Blüdhaven is the Book that Redefined Nightwing',
+		btnText: 'Grayson Finally Grows Up'
+	}
+];
