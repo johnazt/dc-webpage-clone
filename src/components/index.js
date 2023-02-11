@@ -15,3 +15,4 @@ export * from './JoinDC';
 export * from './NavDesktop';
 export * from './NavOptions';
 export * from './SearchDesktop';
+export * from './MenuResponsive';
