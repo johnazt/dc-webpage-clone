@@ -13,7 +13,10 @@ export const MenuResponsive = ({ category, menuResponsive }) => {
 			<div className=' h-full  border-t-gray-400 border-2'>
 				<ul className='flex flex-col gap-8 font-bold uppercase text-[14px]  tracking-[-1.5px]  border-b-black border-[1px] p-4 '>
 					{category.map(item => (
-						<span className='cursor-pointer hover:text-blue-500 inline-block'>
+						<span
+							key={item.category}
+							className='cursor-pointer hover:text-blue-500 inline-block'
+						>
 							{item.category}
 							{item.options.length > 0 && <ArrowDropDownIcon />}
 						</span>
