@@ -260,3 +260,58 @@ export const news = [
 		btnText: 'Grayson Finally Grows Up'
 	}
 ];
+
+export const nav = [
+	{
+		category: 'Characters',
+		options: []
+	},
+	{
+		category: 'comics',
+		options: [
+			'latest comics',
+			'dc universe infinite',
+			'all comic series',
+			'top storylines',
+			'showcase collections',
+			'comic shop locator',
+			'print subscriptions'
+		]
+	},
+	{
+		category: 'movies & tv',
+		options: ['dc movies', 'dc series', 'dc on hbo max']
+	},
+	{
+		category: 'games',
+		options: []
+	},
+	{
+		category: 'news',
+		options: []
+	},
+	{
+		category: 'video',
+		options: []
+	},
+	{
+		category: 'shop',
+		options: [
+			'dc shop',
+			'new arrivals',
+			'most popular',
+			'shop the flash',
+			'shop shazam',
+			'shop batman',
+			'shop harley quinn'
+		]
+	},
+	{
+		category: 'community',
+		options: []
+	},
+	{
+		category: 'more',
+		options: ['dc nfts', 'dc fandome', 'my dc origin story']
+	}
+];

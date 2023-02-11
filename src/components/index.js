@@ -12,3 +12,5 @@ export * from './News';
 export * from './NewsItem';
 export * from './AllRights';
 export * from './JoinDC';
+export * from './NavDesktop';
+export * from './NavOptions';
