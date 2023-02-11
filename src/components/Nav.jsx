@@ -3,7 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import DCLogo from '../assets/dc-logo.svg';
 import { useMediaQuery } from '@mui/material';
-import { NavDesktop } from '../components';
+import { NavDesktop, SearchDesktop } from '../components';
 import { nav } from '../constants';
 
 export const Nav = () => {
@@ -15,9 +15,13 @@ export const Nav = () => {
 					<img src={DCLogo} alt='dc-logo' className='h-10 w-10' />
 					{matches && <NavDesktop category={nav} />}
 				</div>
-				<div>
+				<div className='flex gap-8 items-center'>
 					<SearchIcon />
-					<MenuIcon className='ml-5 cursor-pointer' />
+					{matches ? (
+						<SearchDesktop />
+					) : (
+						<MenuIcon className='ml-5 cursor-pointer' />
+					)}
 				</div>
 			</nav>
 		</div>

@@ -14,3 +14,4 @@ export * from './AllRights';
 export * from './JoinDC';
 export * from './NavDesktop';
 export * from './NavOptions';
+export * from './SearchDesktop';

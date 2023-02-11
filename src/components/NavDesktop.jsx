@@ -7,7 +7,7 @@ export const NavDesktop = ({ category }) => {
 	const [hoveredItem, setHoveredItem] = useState(null);
 
 	return (
-		<ul className='flex items-center gap-8 font-bold uppercase text-[13px] ml-14 tracking-tighter  '>
+		<ul className='flex items-center gap-6 font-bold uppercase text-[13.5px] ml-14 tracking-[-1.5px]  '>
 			{category.map((item, index) => (
 				<li
 					key={index}
