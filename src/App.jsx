@@ -1,4 +1,4 @@
-import { Nav, LatestTrailers } from './components';
+import { Nav } from './components';
 import { Cards, Home, SectionVideo, Sliders, Footer } from './screens';
 
 function App() {

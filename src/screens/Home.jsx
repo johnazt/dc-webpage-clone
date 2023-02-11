@@ -7,7 +7,7 @@ export const Home = () => {
 	const matches = useMediaQuery('(min-width:575px)');
 
 	return (
-		<div className='relative before:block md:before:absolute before:inset-0 before:bg-gradient-to-t before:from-[rgba(0,0,0,.7)] before:bg-opacity-40'>
+		<div className='relative before:block md:before:absolute before:inset-0 before:bg-gradient-to-t before:from-[rgba(0,0,0,.7)] before:bg-opacity-40 mt-14'>
 			<img src={matches ? HomeDesktop : HomeMobile} alt='home-img' />
 			<div className='max-w-[720px] m-auto lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px]'>
 				<div className='md:absolute md:bottom-10 max-w-[540px]  m-auto md:text-gray-100'>
