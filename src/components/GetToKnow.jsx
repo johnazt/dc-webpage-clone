@@ -33,7 +33,7 @@ export const GetToKnow = () => {
 				showDots={true}
 				infinite={true}
 				autoPlay={true}
-				autoPlaySpeed={4000}
+				autoPlaySpeed={3000}
 				dotListClass='dots'
 				customRightArrow={<ArrowRigth />}
 				customLeftArrow={<ArrowLeft />}
