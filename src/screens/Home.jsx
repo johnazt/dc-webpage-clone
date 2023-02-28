@@ -1,6 +1,6 @@
 import React from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import HomeIMG from '../assets/imgs/home/batman-1.webp';
+import HomeIMG from '../assets/imgs/home/batmanHome.jpeg';
 
 export const Home = () => {
 	const matches = useMediaQuery('(min-width:575px)');
