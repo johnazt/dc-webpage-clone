@@ -1,5 +1,6 @@
 import React from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import HomeIMG from '../assets/imgs/home/batman-1.webp';
 
 export const Home = () => {
 	const matches = useMediaQuery('(min-width:575px)');
@@ -10,11 +11,11 @@ export const Home = () => {
 			before:from-[rgba(0,0,0,.5)] before:to-black-opacity-5  mt-14'
 		>
 			<img
-				src='https://www.dc.com/sites/default/files/Gallery_20220726_BM_ODK_Cv3_00311_DIGITAL_62d8940a3adf55.31837764.jpg'
+				src={HomeIMG}
 				style={
 					matches
-						? { maxHeight: '800px', objectPosition: 'top' }
-						: { height: '300px', objectPosition: 'top' }
+						? { maxHeight: '800px', objectPosition: 'center' }
+						: { height: '300px', objectPosition: 'center' }
 				}
 				alt='home-img'
 			/>
