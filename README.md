@@ -1,21 +1,21 @@
 # DC Comics Clon 🦇 💥
 
-Este es un proyecto de clon de la página web original de DC Comics, desarrollado utilizando React y TailwindCSS.
+This is a clone project of the original DC Comics website, developed using React and TailwindCSS.
 
-## ¿Por qué hice este proyecto? 🤔
+## Why I did this project? 🤔
 
-Me gustó mucho la idea de clonar una página web exitosa y poder replicar su funcionamiento, además, me gusta mucho el universo de DC Comics y quise aplicar mis conocimientos en React y TailwindCSS para hacer algo realmente interesante.
+I really liked the idea of cloning a successful website and being able to replicate its functionality. Additionally, I am a big fan of the DC Comics universe, and I wanted to apply my knowledge in React and TailwindCSS to create something truly interesting.
 
-## Utilidad 🎯
+## Utility 🎯
 
-Este proyecto puede ser utilizado como base para cualquier persona que quiera aprender más sobre React y TailwindCSS, ya que tiene muchas funcionalidades y estilos que pueden ser útiles en otros proyectos. Además, puede ser utilizado como un ejemplo de una página web clonada para fines educativos y de aprendizaje.
+This project can be used as a foundation for anyone looking to learn more about React and TailwindCSS, as it includes many features and styles that can be useful in other projects. It can also serve as an example of a cloned website for educational and learning purposes.
 
-## ¿Cómo utilizar este proyecto? 💻
+## How to use this project? 💻
 
-Para utilizar este proyecto, primero deberás clonar el repositorio a tu máquina local. 
+To use this project, you should first clone the repository to your local machine.
 
-- Luego, abre la terminal en la carpeta del proyecto y ejecuta el comando `yarn` para instalar todas las dependencias necesarias. 
+- Next, open the terminal in the project folder and run the `yarn` command to install all the necessary dependencies.
 
-- Finalmente, ejecuta el comando `yarn start` para iniciar el servidor de desarrollo y ver el proyecto en acción.
+- Finally, run the` yarn start `command to start the development server and see the project in action.
 
-Espero que encuentres este proyecto útil y interesante. ¡Que tengas un buen día! 🚀
+- I hope you find this project useful and interesting. Have a great day! 🚀
