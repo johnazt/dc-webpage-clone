@@ -10,7 +10,7 @@ export const Home = () => {
 			before:from-[rgba(0,0,0,.5)] before:to-black-opacity-5 mt-14 '>
       <img
         width={100}
-        height={800}
+        height={805}
         src={HomeIMG}
         className='w-full object-cover'
         style={
