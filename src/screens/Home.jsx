@@ -12,7 +12,6 @@ export const Home = () => {
         width={100}
         height={805}
         src={HomeIMG}
-        className='w-full object-cover'
         style={
 					matches
 						? { maxHeight: '805px', objectPosition: 'center' }
