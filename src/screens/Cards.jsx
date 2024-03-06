@@ -17,6 +17,8 @@ export const Cards = () => {
             <picture>
               <source media='(min-width: 768px)' srcset={imgDesk} />
               <img
+                width={100}
+                height={285}
                 src={imgMob}
                 alt='Descripción'
                 className='min-h-[285px] mb-4'
