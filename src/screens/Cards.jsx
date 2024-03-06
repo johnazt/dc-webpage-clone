@@ -5,7 +5,7 @@ export const Cards = () => {
   const matches = useMediaQuery('(min-width:575px)')
 
   return (
-    <div className='px-3 py-14 grid sm:grid-cols-2 gap-6 max-w-[540px] md:max-w-[720px] lg:grid-cols-4 m-auto lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px]'>
+    <div className='px-3 py-14 grid sm:grid-cols-2 gap-6 min-h-[400px] max-w-[540px] md:max-w-[720px] lg:grid-cols-4 m-auto lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px]'>
       {cards.map(({ imgDesk, imgMob, title, small, textBtn }) =>
         <div
           key={title}
