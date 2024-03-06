@@ -7,7 +7,7 @@ export const Home = () => {
 
   return (
     <div className='relative before:block md:before:absolute before:inset-0 before:bg-gradient-to-t
-			before:from-[rgba(0,0,0,.5)] before:to-black-opacity-5 mt-14 h-[calc(100vh - 56px)]'>
+			before:from-[rgba(0,0,0,.5)] before:to-black-opacity-5 mt-14 '>
       <img
         width={100}
         height={800}
@@ -15,7 +15,7 @@ export const Home = () => {
         className='w-full object-cover'
         style={
 					matches
-						? { maxHeight: '803px', objectPosition: 'center' }
+						? { maxHeight: '805px', objectPosition: 'center' }
 						: { height: '300px', objectPosition: 'center' }
 				}
         alt='home-img'
